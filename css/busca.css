@@ -1,0 +1,154 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#corpo {
+    
+    width: 103%;
+    height: auto;
+    margin-left: -15px;
+
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    height: auto;
+    
+}
+
+#cConteudo {
+    
+    width: 1024px;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+.tituloLivro {
+    
+/*    text-align: left;
+    font-size: 24px;
+    font-family: arial;
+    margin-top: 50px;*/
+    
+}
+
+#cConteudoT p {
+    
+    text-align: left;
+    font-family: arial;
+    border-bottom: 1px #000000 dashed;
+    padding-bottom: 15px;
+    
+}
+
+#cConteudoT a {
+    
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+#voltarAvancar {
+    
+    width: 1024px;
+    height: 25px;
+    margin-top: 50px;
+    letter-spacing: 10px;
+    
+}
+
+#voltarAvancar a {
+    
+    text-decoration: none;
+    color: #000000;
+    font-family: arial;
+    font-size: 24px;
+    
+}
+
+.pgMeio {
+    
+    color: red;
+    font-family: arial;
+    font-size: 30px;
+    
+}
+
+.pComentarios {
+    
+    color: red;
+    font-family: arial;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+.selectLivro {
+    
+    color: #0aa6ec;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+    border: #0aa6ec dashed 1px;
+    margin-left: 10px;
+    width: 200px;
+    
+}
+
+.nomeSelect {
+    
+    color: red;
+    font-family: arial;
+    font-size: 15px;
+    
+}
+
+.versao {
+        
+    color: #0aa6ec;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+    border: #0aa6ec dashed 1px;
+        
+    }
+    
+.imgUsuario2 {
+
+    cursor: default;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+    border: 2px solid white;
+
+}
+
+.balaoUsuario{
+    
+    background-color: #0aa6ec;
+    border-radius: 15px;
+    height: 45px;
+    cursor: pointer;
+    
+}
+
+.balaoUsuario:hover{
+    
+    background-color: #0079C2;
+    
+}

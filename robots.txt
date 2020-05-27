@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /anotacoes
+Disallow: /configuracoes
+Disallow: /marcacoes
+Disallow: /uploadBD
+
+Sitemap: https://anotacoesbiblicas.com/sitemap.xml

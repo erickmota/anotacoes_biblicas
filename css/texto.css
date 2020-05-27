@@ -1,0 +1,389 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+#corpo {
+    
+    height: auto;
+
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    height: auto;
+    
+}
+
+#cConteudo {
+    
+    width: 1024px;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+#cConteudo p {
+    
+    text-align: left;
+    
+}
+
+.verso {
+    
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    
+}
+
+.verso:hover {
+    
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    
+}
+
+.capituloLeitura {
+    
+    color: #000000;
+    font-size: 24px;
+    
+}
+
+#voltarAvancar {
+    
+    width: 1024px;
+    height: 25px;
+    margin-top: 50px;
+    
+}
+
+.linkVoltar a {
+    
+    float: left;
+    font-size: 24px;
+    font-family: arial;
+    color: #00a8ec;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.linkSeguir a {
+    
+    float: right;
+    font-size: 24px;
+    font-family: arial;
+    color: #00a8ec;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.pComentarios {
+    
+    color: red;
+    font-family: arial;
+    font-size: 15px;
+}
+
+#barraEscura {
+        
+        width: 100%;
+        height: 30px;
+        background-color: #009cdb;
+        z-index: 1;
+        
+    }
+    
+    #corpoBarraEscura {
+        
+        width: 1024px;
+        height: 25px;
+        color: #FFFFFF;
+        font-family: arial;
+        font-weight: bold;
+        vertical-align: middle;
+        
+    }
+    
+    .seta {
+        
+        width: 20px;
+        
+    }
+    
+    .seta2 {
+        
+        width: 20px;
+        
+    }
+    
+    .modoLeitura {
+        
+        width: 20px;
+        
+    }
+    
+    .marcador {
+        
+        width: 20px;
+        cursor: pointer;
+        
+    }
+    
+    #camadaMenuMarcacao {
+        
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #000000;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        opacity: 0.0;
+        display: none;
+        
+    }
+    
+    #camadaMenuLeitura {
+        
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #000000;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        opacity: 0.0;
+        display: none;
+        
+    }
+    
+    .textoBarraEscura {
+        
+        line-height: 28px
+        
+    }
+    
+    .textoBarraEscura2 {
+        
+        line-height: 30px;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+        display: none
+        
+    }
+    
+    .textoBarraEscura3 {
+        
+        line-height: 30px;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    #conteudoBarraEscura {
+        
+        width: 404px;
+        height: 30px;
+        float: right;
+        
+    }
+    
+    #conteudoBarraEscura2 {
+        
+        width: 300px;
+        height: 30px;
+        float: right;
+        
+    }
+    
+    #tituloBarraEscura {
+        
+        width: 400px;
+        height: 30px;
+        float: left;
+        text-align: left;
+        line-height: 30px;
+        
+    }
+    
+    #conteudoBarraEscura a {
+        
+        text-decoration: none;
+        color: #FFFFFF;
+        
+    }
+    
+    #tituloBarraEscura {
+        
+        display: none;
+        
+    }
+    
+    #corpoAnotacoesRapidas {
+        
+        width: 1024px;
+        height: auto;
+        margin-top: 30px;
+        
+    }
+    
+    .textoAnotacoes {
+        
+        width: 1024px;
+        min-height: 50px;
+        resize: vertical;
+        padding: 5px;
+        
+    }
+    
+    .botaoAnotacoes {
+        
+        float: right;
+        margin-top: 10px;
+        
+    }
+    
+    #menuMarcacao {
+        
+        width: 180px;
+        height: 150px;
+        background-color: #009cdb;
+        position: relative;
+        left: -190px;
+        display: none;
+        z-index: 2;
+        border-radius: 0px 0px 10px 10px;
+        font-family: arial;
+        
+    }
+    
+    #menuLeitura {
+        
+        width: 180px;
+        height: 150px;
+        background-color: #009cdb;
+        position: relative;
+        left: -165px;
+        display: none;
+        z-index: 2;
+        border-radius: 0px 0px 10px 10px;
+        font-family: arial;
+        
+    }
+    
+    #menuMarcacao table {
+        
+        color: #FFFFFF;
+        font-family: arial;
+        text-align: center;
+        
+    }
+    
+    .imgBanner {
+        
+        margin-top: 30px;
+        margin-bottom: -20px;
+        
+    }
+    
+    #espacoPC{
+        
+        margin-top: 30px;
+        margin-bottom: -20px;
+        
+    }
+    
+    #espacoCelular{
+        
+        display: none;
+        
+    }
+    
+    .versao {
+        
+        color: #0aa6ec;
+        font-size: 15px;
+        font-weight: normal;
+        padding: 5px;
+        border: #0aa6ec dashed 1px;
+        
+    }
+    
+    .aviso {
+        
+        color: lightslategray;
+        font-size: 14px;
+        
+    }
+    
+    .numeroVerso {
+        
+        color: silver;
+        font-size: 15px;
+        
+    }
+    
+    .linkoucerquilha{
+        
+        font-size: 15px;
+        font-family: arial;
+        color: #00a8ec;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+    
+    .imgUsuario2 {
+
+        cursor: default;
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    
+    .numeroComentariosPorUsuario{
+        
+        background-color: red;
+        color: white;
+        font-size: 11px;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 10px;
+        left: 12px;
+        
+    }
+    
+    .espacoSeguindo{
+        
+        display: inline-block;
+        
+    }
+    
+    .espacoSeguindo:hover{
+        
+        text-decoration: none;
+        
+    }

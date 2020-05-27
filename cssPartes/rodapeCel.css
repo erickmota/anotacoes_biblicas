@@ -1,0 +1,133 @@
+/* Corpo do rodapé ******************************************************** */
+
+    #crodape {
+
+        background-color: #00a8ec;
+        height: auto;
+        margin-top: 100px;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+
+    }
+
+    #livros {
+
+        width: 90%;
+        height: auto;
+
+    }
+
+    #cVelhoTestamento {
+
+        float: left;
+        width: 100%;
+        margin-top: 80px;
+
+    }
+
+    #cNovoTestamento {
+
+        width: 100%;
+        margin-top: 80px;
+
+    }
+
+    #cVelhoTestamento table {
+
+        width: 100%;
+
+    }
+
+    .lVelhoTestamento1 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: arial;
+        color: #FFFFFF;
+
+    }
+
+    .lVelhoTestamento2 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-family: arial;
+        font-size: 18px;
+        margin-top: -40px;
+        color: #FFFFFF;
+
+    }
+
+    .tituloVelhoTestamento {
+
+        font-size: 24px;
+        font-family: arial;
+        font-weight: bold;
+        width: 100%;
+        color: #FFFFFF;
+
+    }
+
+    #cNovoTestamento table {
+
+        width: 100%;
+
+    }
+
+    .lNovoTestamento1 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: arial;
+        color: #FFFFFF;
+
+    }
+
+    .lNovoTestamento2 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-family: arial;
+        font-size: 18px;
+        margin-top: -40px;
+        color: #FFFFFF;
+
+    }
+
+    .tituloNovoTestamento {
+
+        font-size: 24px;
+        font-family: arial;
+        font-weight: bold;
+        width: 100%;
+        color: #FFFFFF;
+
+    }
+
+    #rodape {
+
+        background-color: #007cae;
+        width: 100%;
+        height: auto;
+
+    }
+    
+    #livros a {
+        
+        color: #FFFFFF;
+        text-decoration: none;
+        
+    }
+    
+    #cCopy a {
+        
+        color: #FFFFFF;
+        
+    }

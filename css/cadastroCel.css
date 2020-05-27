@@ -1,0 +1,99 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+#corpo {
+    
+    height: auto;
+    
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    height: auto;
+    
+}
+
+#cConteudo {
+    
+    width: 90%;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+.tituloLivro {
+    
+    text-align: left;
+    font-size: 24px;
+    font-family: arial;
+    margin-top: 50px;
+    
+}
+
+.tituloLivro {
+    
+    text-align: left;
+    font-size: 24px;
+    font-family: arial;
+    margin-top: 50px;
+    
+}
+
+.labelCadastro {
+    
+    float: left;
+    
+}
+
+#localImg{
+    
+    width: 30%;
+    float: left;
+    height: 380px;
+    display: none;
+    
+}
+
+#localForm {
+    
+    width: 100%;
+    float: right;
+    height: 380px;
+    
+}
+
+#corpoT{
+    
+    width: 100%;
+    height: 380px;
+    
+}
+
+.imgIcone {
+    
+    margin-top: 0px;
+    
+}
+
+#corpoLembrar {
+    
+    width: 100%;
+    height: 150px;
+    border-top: 1px #CCC dashed;
+    margin-top: 50px;
+    padding-top: 30px;
+    
+}

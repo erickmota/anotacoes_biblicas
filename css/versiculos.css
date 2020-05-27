@@ -1,0 +1,219 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#corpo {
+    
+    width: 103%;
+    height: auto;
+    margin-left: -15px;
+
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    height: auto;
+    
+}
+
+#cConteudo {
+    
+    width: 1024px;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+#voltarAvancar {
+    
+    width: 1024px;
+    height: 25px;
+    margin-top: 70px;
+    
+}
+
+.linkVoltar {
+    
+    float: left;
+    font-size: 21px;
+    color: #00a8ec;
+    cursor: pointer;
+    
+}
+
+.linkVoltar:hover{
+    
+    color: #00a8ec;
+    
+}
+
+.linkSeguir {
+    
+    float: right;
+    font-size: 24px;
+    font-family: arial;
+    color: #00a8ec;
+    cursor: pointer;
+    
+}
+
+.comentarios {
+    
+    width: 1024px;
+    min-height: 100px;
+    resize: vertical;
+    padding: 5px;
+    
+}
+
+.botaoSalvar {
+    
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.botaoApagar {
+    
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+.btn-publico-privado{
+    
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.area-btn-publico-privado{
+    
+    margin-right: 20px;
+    
+}
+
+.botaoExcluir {
+    
+    margin-right: 30px;
+    margin-top: 9px;
+    float: right;
+    
+}
+
+.avisoCorErro {
+    
+    color: red;
+    font-size: 16px;
+    
+}
+
+.versao {
+        
+        color: #0aa6ec;
+        font-size: 15px;
+        font-weight: normal;
+        padding: 5px;
+        border: #0aa6ec dashed 1px;
+        
+    }
+    
+    .numeroVerso {
+        
+        color: silver;
+        font-size: 15px;
+        
+    }
+    
+    .pincel {
+        
+        float: right;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        
+    }
+    
+    .iconeDanger {
+        
+        float: right;
+        margin-right: 15px;
+        margin-top: 4px;
+        transform: rotateX(180deg);
+        cursor: pointer;
+        
+    }
+    
+    .dataComentario {
+        
+        color: #a4a4a4;
+        font-size: 15px;
+        float: left;
+        
+    }
+    
+    #espacoPC{
+        
+        margin-top: 30px;
+        margin-bottom: -20px;
+        background-color: #f5f5f5;
+        
+    }
+    
+    #espacoCelular{
+        
+        display: none;
+        
+    }
+    
+    .verso{
+        
+        font-size: 21px;
+        
+    }
+    
+    .icone-conf{
+        
+        cursor: pointer;
+        
+    }
+    
+    .area-btn-conf{
+        
+     margin-top: 20px;   
+        
+    }
+    
+    .btn-sinalizar{
+        
+        cursor: pointer;
+        
+    }
+    
+    .img-avatar {
+    
+    cursor: default;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    
+    }
+    
+    .verso {
+    
+    font-size: 21px;
+    
+    }

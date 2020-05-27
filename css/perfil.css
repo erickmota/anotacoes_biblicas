@@ -1,0 +1,45 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#corpo {
+    
+    width: 103%;
+    height: auto;
+    margin-left: -15px;
+
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    width: 1024px;
+    
+}
+
+.imgAvatar {
+    
+    cursor: default;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.verso {
+    
+    font-size: 21px;
+    
+}

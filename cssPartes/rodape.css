@@ -1,0 +1,151 @@
+/* Corpo do rodapé ******************************************************** */
+
+    #crodape {
+
+        background-color: #00a8ec;
+        height: 1183px;
+        margin-top: 100px;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+
+    }
+
+    #livros {
+
+        width: 1024px;
+        height: 1083px;
+
+    }
+
+    #cVelhoTestamento {
+
+        float: left;
+        width: 512px;
+        height: 200px;
+        margin-top: 80px;
+
+    }
+
+    #cNovoTestamento {
+
+        float: right;
+        width: 512px;
+        height: 200px;
+        margin-top: 80px;
+
+    }
+
+    #cVelhoTestamento table {
+
+        width: 392px;
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    .lVelhoTestamento1 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: arial;
+        color: #FFFFFF;
+
+    }
+
+    .lVelhoTestamento2 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-family: arial;
+        font-size: 18px;
+        margin-top: -40px;
+        color: #FFFFFF;
+
+    }
+
+    .tituloVelhoTestamento {
+
+        font-size: 24px;
+        font-family: arial;
+        font-weight: bold;
+        width: 280px;
+        color: #FFFFFF;
+
+    }
+
+    #cNovoTestamento table {
+
+        width: 392px;
+        float: right;
+        margin-right: 20px;
+
+    }
+
+    .lNovoTestamento1 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: arial;
+        color: #FFFFFF;
+
+    }
+
+    .lNovoTestamento2 {
+
+        list-style-type: none;
+        text-indent: -40px;
+        line-height: 40px;
+        font-family: arial;
+        font-size: 18px;
+        margin-top: -40px;
+        color: #FFFFFF;
+
+    }
+
+    .tituloNovoTestamento {
+
+        font-size: 24px;
+        font-family: arial;
+        font-weight: bold;
+        width: 280px;
+        color: #FFFFFF;
+
+    }
+
+    #rodape {
+
+        background-color: #007cae;
+        width: 100%;
+
+    }
+
+    #cCopy {
+
+        width: 1024px;
+        height: 100px;
+        vertical-align: middle;
+        display:  table-cell;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-family: arial;
+
+    }
+    
+    #livros a {
+        
+        color: #FFFFFF;
+        text-decoration: none;
+        
+    }
+    
+    #cCopy a {
+        
+        color: #FFFFFF;
+        
+    }

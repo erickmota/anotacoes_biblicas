@@ -1,0 +1,228 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#corpo {
+    
+    width: 103%;
+    height: auto;
+    margin-left: -15px;
+
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    height: auto;
+    
+}
+
+#cConteudo {
+    
+    width: 1024px;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+.tituloLivro {
+    
+    text-align: left;
+    font-size: 24px;
+    font-family: arial;
+    margin-top: 50px;
+    
+}
+
+.selectData {
+    
+    color: #0aa6ec;
+    font-size: 15px;
+    font-weight: normal;
+    border: #0aa6ec dashed 1px;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    
+}
+
+.labelData {
+    
+    color: red;
+    font-family: arial;
+    font-size: 15px;
+    
+}
+
+.botaoData {
+    
+    height: 30px;
+    border: 1px #007cae solid;
+    background-color: #007cae;
+    color: white;
+    
+}
+
+.tableConteudo {
+    
+    width: 100%;
+    border-bottom: 1px #CCC dashed;
+    
+}
+
+.tdDireita {
+    
+    text-align: right
+    
+}
+
+.tdDireita a {
+    
+    color: #00a8ec;
+    text-decoration: none;
+    
+}
+
+.tdDireita a:hover {
+    
+    color: #00a8ec;
+    text-decoration: underline;
+    
+}
+
+.tdDireitaX {
+    
+    text-align: right;
+    width: 100px;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.tdDireitaX a {
+    
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.tdData {
+    
+    width: 200px;
+    
+}
+
+.trLinha{
+    
+    border-bottom: 1px #CCC dashed;
+    
+}
+
+#corpoDataMarcada {
+    
+    width: 100%;
+    max-height: 100px;
+    line-height: 120%;
+    color: #00a8ec;
+    overflow: auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px
+    
+}
+
+#corpoDataMarcada a {
+    
+    color: #00a8ec;
+    text-decoration: none;
+    
+}
+
+#corpoDataMarcada a:hover {
+    
+    color: #00a8ec;
+    text-decoration: underline;
+    
+}
+
+.formData {
+    
+    margin-top: 20px;
+    
+}
+
+.formDestaque {
+    
+    margin-top: 20px;
+    float: right;
+    
+}
+
+.inputNomeDestaque {
+    
+    width: 200px;
+    height: 30px;
+    border: 1px #CCC solid;
+    text-indent: 5px;
+    
+}
+
+.botaoDestaque {
+    
+    height: 30px;
+    border: 1px #007cae solid;
+    background-color: #007cae;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.botaoApagarData {
+    
+    height: 30px;
+    border: 1px red solid;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+    
+}
+
+.tdCentro {
+    
+    color: #00a8ec;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#voltarData{
+    
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.linkVoltar{
+    
+    float: left;
+    font-size: 24px;
+    font-family: arial;
+    color: #00a8ec;
+    cursor: pointer;
+    text-decoration: none;
+    
+}

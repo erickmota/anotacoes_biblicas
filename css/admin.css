@@ -1,0 +1,77 @@
+.colunaLink {
+	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	
+}
+
+.colunaLink:hover {
+	
+	color: #e0e0e0;
+	
+}
+
+
+.colunaBorda {
+	
+	border-bottom: 1px solid #484848;
+	
+}
+
+.imgLogoIcone {
+	
+	width: 60px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+
+.imgLogo {
+	
+	width: 500px;
+	
+}
+
+.sidebar {
+	
+	position: fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	overflow: auto;
+	
+}
+
+.iconeMenu {
+	
+	width: 40px;
+	cursor: pointer;
+	
+}
+
+.iconeMenu2 {
+	
+	width: 40px;
+	display: none;
+	cursor: pointer;
+	
+}
+
+.imgEmail {
+    
+    cursor: pointer;
+    
+}
+
+.fotoPerfil {
+    
+    cursor: default;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    object-position: center;
+    
+}

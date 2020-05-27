@@ -1,0 +1,186 @@
+/* Descrição: Folha de estilo da página iicial
+Autor: Erick Mota
+Última atualização: 21/08/2018 - 01:37*/
+
+body { 
+    
+    overflow-x:hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 101%;
+    margin-left: 0px;
+
+}
+
+#corpo {
+    
+    height: auto;
+    
+}
+
+/* Conteúdo do site (versículos) ********************************************/
+
+#conteudo {
+    
+    height: auto;
+    
+}
+
+#cConteudo {
+    
+    width: 90%;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+.tituloLivro {
+    
+    text-align: left;
+    font-size: 24px;
+    font-family: arial;
+    margin-top: 50px;
+    
+}
+
+.tituloEnviar {
+    
+    float: left
+    
+}
+
+.textoEnviar {
+    
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+    text-indent: 5px;
+    padding-top: 5px;
+    color: #4a4a4a;
+    
+}
+
+.avisoExcluir {
+    
+    color: red;
+    
+}
+
+.botaoApagar {
+    
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: 1px red solid;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.labData {
+    
+    float: left
+    
+}
+
+.labNome {
+    
+    float: left;
+    
+}
+
+.inputNome {
+    
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+    text-indent: 5px;
+    color: #4a4a4a;
+    float: left;
+    
+}
+
+.btnNome {
+    
+    width: 24%;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    background-color: #00a8ec;
+    color: white;
+    border: 1px #00a8ec solid;
+    cursor: pointer;
+    
+}
+
+#parteApagar {
+    
+    width: 100%;
+    border-top: 1px #CCC dashed;
+    
+}
+
+.imgAvatar {
+    
+    cursor: default;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.selecaoImagem {
+    
+    border-radius: 5px;
+    border: 1px #CCC solid;
+    padding: 5px;
+    width: 75%;
+    float: left;
+    
+}
+
+.btnImagem {
+    
+    height: 33px;
+    border-radius: 5px;
+    background-color: #00a8ec;
+    color: white;
+    border: 1px #00a8ec solid;
+    cursor: pointer;
+    width: 24%;
+    
+}
+
+.btnVirar {
+    
+    height: 30px;
+    border-radius: 5px;
+    background-color: #00a8ec;
+    color: white;
+    border: 1px #00a8ec solid;
+    cursor: pointer;
+    
+}
+
+.btnImagemVirar {
+    
+    height: 10px;
+    
+}
+
+.btnApagar {
+    
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: 1px red solid;
+    cursor: pointer;
+    
+}
