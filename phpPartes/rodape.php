@@ -2221,7 +2221,7 @@
                         <p class="font-weight-light text-white">
 
                             © Copyright 2018-2020&nbsp&nbsp&nbsp
-                            1.6.3
+                            1.6.4
 
                         </p>
                     
